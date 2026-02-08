@@ -1,0 +1,59 @@
+/* Header Styles */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+#title {
+    margin: 0;
+}
+
+#search {
+        display: flex;
+        gap: 8px;
+}
+
+#search-input {
+    padding: 6px;
+    font-size: 12px;
+}
+
+#search-button {
+    padding: 6px 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#logo img {
+    display: block;
+}
+
+/* Navigation Bar */
+#nav {
+    padding: 10px 0;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+#nav a:hover {
+    color: #011e3d;
+}
